@@ -1,0 +1,177 @@
+### PART 1
+
+After running assignment.sh and getting the comparison reports between the merged exon sequence and all the 497 exons that compose the first 42 genes of this multiple alignment, I run a python script to extract the 5 exons with the closest phylogeny (least distance (d) between trees) to the merged exon sequence.
+
+Those exons are exon317 (d=6), exon12 (d=10), exon119 (d=10), exon255 (d=10) and exon55 (d=12) and I run the gene sequence (human) they originate from on blastp to check the name of the gene.
+
+
+
+* exon317 (originates from gene27): PROTEIN NAME: Elongin-A protein // GENE NAME: ELOA
+
+Elongin A, encoded by the ELOA gene, is a crucial component of the transcription factor B (SIII) complex, which also includes Elongin B and Elongin C. This complex enhances the elongation phase of RNA polymerase II transcription by alleviating transient pauses during transcription. Within this assembly, Elongin A serves as the active subunit, while Elongins B and C function as regulatory subunits. 
+
+In vitro studies have demonstrated that Elongin A significantly stimulates RNA polymerase II transcription elongation. In vivo research has shown that in mouse embryonic stem cells, Elongin A associates with numerous actively transcribed genes, particularly near transcription start sites and promoter-proximal regions, suggesting its involvement in modulating transcriptional activity.
+
+The ELOA gene is located on chromosome 1p36.1. Mutations or alterations in this gene have been linked to developmental and epileptic encephalopathy 69 and Cockayne Syndrome B.
+
+Additionally, the von Hippel-Lindau (VHL) tumor suppressor protein interacts with Elongin B and C, inhibiting transcription elongation. This interaction underscores the complex regulatory mechanisms governing gene expression and highlights the potential implications of Elongin A in various diseases.
+
+
+
+* exon12 (originates from gene1): PROTEIN NAME: Protein-Associating with the Carboxyl-Terminal Domain of Ezrin Isoform 2 // GENE NAME: SCYL3
+
+The protein associated with the carboxyl-terminal domain of ezrin isoform 2 corresponds to the SCYL3 gene, also known as PACE-1. SCYL3 encodes a protein characterized by a kinase-like domain and four HEAT repeats, which are implicated in intracellular transport and signaling pathways. Although it contains a kinase domain, SCYL3 is classified as a pseudokinase due to the absence of certain residues essential for catalytic activity. This suggests that, while it may not possess enzymatic function, SCYL3 could play a role in scaffolding or regulatory processes within the cell.
+
+SCYL3 is predominantly localized in the cytoplasm and has been observed in the Golgi apparatus. Its interaction with the C-terminal domain of ezrin indicates a potential involvement in linking the plasma membrane to the actin cytoskeleton, thereby influencing cell adhesion and migration. Alternative splicing of this gene results in multiple transcript variants encoding different isoforms. 
+
+The gene is located on chromosome 1 at position 1q42.13. While specific diseases directly associated with SCYL3 mutations are not well-documented, its expression patterns and interactions suggest a role in various cellular processes, including protein phosphorylation and cell migration.
+
+In summary, SCYL3 (PACE-1) is a pseudokinase that interacts with ezrin's C-terminal domain, potentially contributing to cytoskeletal organization and cellular dynamics.
+
+
+
+* exon119 (originates from gene10): PROTEIN NAME: Suppressor of Tumorigenicity 7 Protein-Like Isoform 1 // GENE NAME: ST7L
+
+The Suppressor of Tumorigenicity 7 Protein-Like Isoform 1 (ST7L Isoform 1) is a protein encoded by the ST7L gene in humans. This gene is located on chromosome 1p13.2 and is known to produce multiple transcript variants through alternative splicing, resulting in different isoforms of the protein.
+
+Structurally, ST7L Isoform 1 comprises 575 amino acids with a molecular mass of approximately 64.8 kDa. The protein belongs to the ST7 family and shares homology with the Suppressor of Tumorigenicity 7 (ST7) protein. However, the precise molecular function of ST7L Isoform 1 remains to be fully elucidated.
+
+Emerging research suggests that ST7L may play a role in modulating the Wnt/β-catenin signaling pathway, which is crucial for cell proliferation and differentiation. For instance, studies have indicated that suppression of ST7L can activate the Wnt/GSK-3β/β-catenin signaling cascade, leading to increased proliferation and invasion of breast cancer cells. Additionally, in pancreatic cancer cells, miR-331-3p has been shown to confer drug resistance by activating Wnt/β-catenin signaling via ST7L. 
+
+Despite these insights, the comprehensive biological functions and potential clinical implications of ST7L Isoform 1 require further investigation to fully understand its role in human health and disease.
+
+
+
+* exon 255 (originates from gene20): PROTEIN NAME: Mannan-Binding Lectin Serine Protease 2 Isoform 1 Preproprotein // GENE NAME: MASP-2
+
+Mannan-binding lectin serine protease 2 (MASP-2) isoform 1 preproprotein is a crucial enzyme in the lectin pathway of the complement system, an integral component of innate immunity. Encoded by the MASP2 gene in humans, this protein plays a pivotal role in host defense mechanisms against pathogens.
+
+Structure and Activation:
+
+MASP-2 is synthesized as a preproprotein, which undergoes post-translational modifications to become an active serine protease. It associates with pattern recognition molecules such as mannan-binding lectin (MBL) and ficolins. Upon binding of these complexes to pathogen-associated molecular patterns, MASP-2 is activated, leading to the initiation of the complement cascade.
+
+Function in the Complement System:
+
+Once activated, MASP-2 cleaves complement components C4 and C2, resulting in the formation of the C3 convertase (C4bC2b). This enzyme complex plays a central role in opsonization, inflammation, and the formation of the membrane attack complex, which can directly lyse pathogens.
+
+Clinical Significance:
+
+Deficiencies or mutations in the MASP2 gene can impair the lectin pathway, leading to increased susceptibility to infections and influencing the severity of autoimmune diseases. Conversely, excessive activation of MASP-2 has been implicated in inflammatory conditions, making it a potential therapeutic target for modulating immune responses.
+
+Understanding the structure and function of MASP-2 isoform 1 preproprotein is essential for developing interventions aimed at regulating the lectin pathway in various disease contexts.
+
+
+
+* exon55 (originates from gene4): PROTEIN NAME: Complement Factor H Isoform A Precursor // GENE NAME: CFH
+
+Complement Factor H (CFH) is a crucial regulatory glycoprotein in the alternative pathway of the complement system, an essential component of innate immunity. The CFH isoform a precursor, encoded by the CFH gene located on chromosome 1q32, undergoes post-translational modifications to become the mature CFH protein.
+
+Structure:
+
+CFH is composed of 20 short consensus repeat (SCR) domains, also known as complement control protein (CCP) modules. Each SCR domain consists of approximately 60 amino acids, facilitating specific interactions with various ligands.
+
+Function:
+
+CFH serves as a soluble inhibitor of the alternative complement pathway, protecting host cells from unintended complement activation. Its primary functions include:
+
+Decay-Accelerating Activity: CFH accelerates the decay of the alternative pathway C3 convertase (C3bBb), preventing excessive complement activation.
+
+Cofactor Activity: It acts as a cofactor for factor I-mediated cleavage of C3b into inactive fragments, thereby regulating complement activity.
+
+Clinical Significance:
+
+Mutations or polymorphisms in the CFH gene are associated with various diseases, including:
+
+Age-Related Macular Degeneration (AMD): Certain CFH variants significantly increase the risk of developing AMD, a leading cause of vision loss in older adults.
+
+Atypical Hemolytic Uremic Syndrome (aHUS): Deficiencies or dysfunctions in CFH can lead to uncontrolled complement activation, contributing to aHUS, a condition characterized by hemolytic anemia, thrombocytopenia, and renal failure.
+
+Understanding the structure and function of CFH is vital for developing therapeutic strategies targeting complement-mediated diseases.
+
+
+CITATION: https://chatgpt.com/share/67e683d0-16a0-800c-b130-4bbee2155a8c
+
+
+
+
+### PART 2
+
+i)
+
+The distance between the tree of the merged exon sequence and that of gene2 is 0 (d=0), which means they have an idential phylogeny.
+
+* gene2 : PROTEIN NAME: FIGNL1-Interacting Regulator of Recombination and Mitosis Isoform 1 // GENE NAME: FIRRM
+
+FIGNL1-interacting regulator of recombination and mitosis (FIRRM), also known as C1orf112, is a protein that plays a crucial role in DNA repair and cell division processes. It interacts with Fidgetin-like 1 (FIGNL1), forming a complex essential for the regulation of homologous recombination—a mechanism cells use to repair DNA double-strand breaks.
+
+Protein Structure and Domains
+
+FIRRM comprises several key domains:
+
+Domain of Unknown Function (DUF): This region includes the WCF tripeptide, which is responsible for interacting with FIGNL1.
+
+Interaction with RAD51 and DMC1: The FIGNL1-FIRRM complex interacts with RAD51 and DMC1, proteins that form nucleoprotein filaments crucial for repairing DNA double-strand breaks during homologous recombination.
+
+Functional Roles:
+
+Regulation of RAD51 and DMC1: The FIGNL1-FIRRM complex modulates the dynamics of RAD51 and DMC1 during DNA repair, ensuring proper strand invasion and processing of recombination intermediates.
+
+Meiotic Recombination: FIRRM is essential for completing meiotic prophase in mouse spermatocytes. It limits the accumulation of RAD51 and DMC1 on intact chromatin, promoting efficient strand invasion and processing of recombination intermediates.
+
+Mitotic Functions: In mitosis, FIRRM localizes to kinetochores, where it interacts with Polo-like kinase 1 (PLK1) to ensure proper chromosome segregation. It prevents the dephosphorylation of PLK1 by PP1γ, facilitating PLK1 activity during prophase and metaphase.
+
+Clinical Significance:
+
+Alterations in FIRRM function can lead to genomic instability and are associated with diseases such as adiaspiromycosis and muscular dystrophy-dystroglycanopathy. Understanding FIRRM's role in DNA repair and cell division provides insights into potential therapeutic targets for related diseases.
+
+
+
+ii)
+
+The distances between the tree of the merged exon sequence and both that of gene21 and that of gene28 are gene34 (d=34), which is the highest, so these 2 genes have a phylogeny as different as possible compared to the merged exon sequence.
+
+* gene21: PROTEIN NAME: Protein FAM76A Isoform 3 // GENE NAME: FAM76A
+
+FAM76A, or Family with Sequence Similarity 76 Member A, is a protein encoded by the FAM76A gene in humans. The gene is located on chromosome 1 at position 1p35.3. The protein has been identified in various tissues, with expression data available in resources like The Human Protein Atlas.
+
+Protein Isoforms:
+
+Alternative splicing of the FAM76A gene results in multiple protein isoforms. Isoform 3, with the RefSeq accession number NP_689873.1, is one such variant. Detailed information about this specific isoform, including its unique sequence and functional characteristics, is available on the NCBI website.
+
+Amino Acid Composition:
+
+The amino acid composition of the FAM76A protein has been analyzed, revealing frequencies of amino acids that are within 1.5% of those found in typical human proteins. Notably, cysteine and lysine are present at higher frequencies, while valine occurs less frequently compared to standard human proteins.
+
+Clinical Relevance:
+
+Alterations in the FAM76A gene have been observed in various cancer types, including cholangiocarcinoma, adenocarcinoma of unknown primary, and breast invasive ductal carcinoma. These alterations occur in approximately 0.16% of all cancers, highlighting the potential significance of FAM76A in oncological research.
+
+Research Tools:
+
+For research purposes, recombinant forms of the FAM76A protein, including isoform 3, are available. These proteins are utilized in studies aiming to elucidate the protein's function and potential applications. 
+
+
+* gene34: PROTEIN NAME: Neurochondrin Isoform 1 // GENE NAME: NCDN
+
+Neurochondrin, also known as Norbin, is a protein encoded by the NCDN gene in humans. Isoform 1 (NP_001014839.1) is one of the variants produced through alternative splicing of this gene.
+
+Protein Structure and Domains:
+
+Neurochondrin contains a conserved domain known as the Neurochondrin domain (Pfam accession PF05536). This domain is characteristic of several eukaryotic neurochondrin proteins and is associated with inducing hydroxyapatite resorptive activity in bone marrow cells.
+
+Functional Roles:
+
+Neuronal Development: Neurochondrin is implicated in neuronal development, particularly in the differentiation and outgrowth of neurons. Conditional knockout studies have demonstrated that its absence in the nervous system leads to impaired spatial learning and epileptic seizures, highlighting its role in cognitive functions and neural stability.
+
+Bone Metabolism: Beyond the nervous system, neurochondrin is expressed in bone tissues, including chondrocytes, osteoblasts, and osteocytes. It has been shown to induce hydroxyapatite resorptive activity in bone marrow cells, suggesting a role in bone metabolism.
+
+Signal Transduction Modulation: Neurochondrin interacts with the RIIα subunit of Protein Kinase A (PKA), acting as an atypical A-kinase anchoring protein. This interaction modulates PKA signaling pathways, which are crucial for various cellular processes, including neurotransmission and plasticity.
+
+Clinical Significance:
+
+Mutations or dysregulation of neurochondrin have been associated with neurodevelopmental disorders. Studies have identified variants in the NCDN gene that correlate with conditions such as intellectual disability and epilepsy, underscoring its importance in normal brain function. 
+
+
+CITATION: https://chatgpt.com/share/67e687de-4c7c-800c-a7fe-9d91c0fc5617
+
+

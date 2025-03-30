@@ -1,0 +1,3 @@
+alignment_file: "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/multiz20way/alignments/knownCanonical.exonAA.fa.gz"
+alignments: ./knownCanonical.exonAA.fa.gz
+alignment_num: 497	
